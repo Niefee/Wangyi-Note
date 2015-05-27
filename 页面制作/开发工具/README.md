@@ -1,4 +1,4 @@
-![插图](/img/1.png)
+![插图](img/1.png)
 
 ##sublime text快捷键
 查找（Ctrl+P）<br>
@@ -8,8 +8,8 @@
 命令面板（Ctrl+shift+P）<br>
 多行选择（Ctrl+D ，Ctrl+shift+L）ctrl+k可以取消选择当前选项
 
-![插图](/img/2.png)
-![插图](/img/3.png)
+![插图](img/2.png)
+![插图](img/3.png)
 
 ##代码片段：
 	<snippet>
