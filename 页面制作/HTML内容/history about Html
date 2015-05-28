@@ -1,0 +1,16 @@
+1.Html的发展历史
+	W3C：html4.0 xhtml2.0
+	WHATWG：html 5
+2.xhtml与html的区别  
+	XHTML 是更严谨更纯净的 HTML 版本。
+	HTML在HTML 4.01之后的第一个修订版本就是XHTML 1.0，其中X代表“eXtensible”，扩展，当然也有人将之解读为 “eXtreme”，极端。XHTML 1.0是基于HTML 4.01的，并没有引入任何新标签或属性，唯一的区别是语法，HTML对语法比较随便，而 XHTML则要求XML般的严格语法。
+3.doctype的几种类型
+	在默认情况下，FF和IE的解释标准是不一样的，也就是说，如果一个网页没有声明DOCTYPE，它就会以默认的DOCTYPE解释下面的HTML。在同一种标准下，不同浏览器的解释模型都有所差异。
+	过渡的（Transitional）、严格的（Strict）和框架的（Frameset）。这里分别介绍如下。
+	1．过渡的：一种要求不很严格的DTD，允许在页面中使用HTML4.01的标识（符合xhtml语法标准）。
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+	2．严格的：一种要求严格的DTD，不允许使用任何表现层的标识和属性，
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+	3．框架的：一种专门针对框架页面所使用的DTD，当页面中含有框架元素时，就要采用这种DTD。
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
+	使用严格的DTD来制作页面，当然是最理想的方式。但是，对于没有深入了解Web标准的网页设计者，比较合适的是使用过渡的DTD。因为这种DTD还允许使用表现层的标识、元素和属性，比较适合大多数网页制作人员。
