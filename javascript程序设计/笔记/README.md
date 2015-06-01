@@ -1,4 +1,98 @@
-[TOC]
+<ul>
+<li><a href="#javascript介绍">javascript介绍</a></li>
+<li><a href="#javascript调试">javascript调试</a><ul>
+<li><a href="#观察窗口">观察窗口</a></li>
+</ul>
+</li>
+<li><a href="#javascript词法">javascript词法</a></li>
+<li><a href="#类型系统">类型系统</a><ul>
+<li><a href="#标准类型">标准类型</a></li>
+<li><a href="#原始类型和应用类型">原始类型和应用类型</a></li>
+<li><a href="#undefined">Undefined</a></li>
+<li><a href="#null">null</a></li>
+<li><a href="#boolean">Boolean</a></li>
+<li><a href="#string">String</a></li>
+<li><a href="#number">Number</a></li>
+<li><a href="#object">Object</a></li>
+</ul>
+</li>
+<li><a href="#类型识别">类型识别</a><ul>
+<li><a href="#typeof">typeof</a></li>
+<li><a href="#objectprototypetosting">Object.prototype.toSting</a></li>
+<li><a href="#constructor">constructor</a></li>
+<li><a href="#instanceof">instanceof</a></li>
+</ul>
+</li>
+<li><a href="#内置对象">内置对象</a><ul>
+<li><a href="#标准内置对象">标准内置对象</a><ul>
+<li><a href="#object-1">Object</a><ul>
+<li><a href="#objectcreate">Object.create</a></li>
+<li><a href="#objectprototypetostring">Object.prototype.toString</a></li>
+<li><a href="#objectprototypehasownproperty">Object.prototype.hasOwnProperty</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#boolean-1">Boolean</a><ul>
+<li><a href="#其他类型向布尔类型转换">其他类型向布尔类型转换</a></li>
+</ul>
+</li>
+<li><a href="#string-1">String</a><ul>
+<li><a href="#stringprototypeindexof">String.prototype.indexOf</a></li>
+<li><a href="#stringprototyreplace">String.prototy.replace</a></li>
+<li><a href="#stingprototypesplit">Sting.prototype.split</a></li>
+</ul>
+</li>
+<li><a href="#number-1">Number</a><ul>
+<li><a href="#numberprototypetofixed">Number.prototype.toFixed</a></li>
+</ul>
+</li>
+<li><a href="#array">Array</a><ul>
+<li><a href="#arrayprototypesplice">Array.prototype.splice</a></li>
+<li><a href="#arrayprototypeforeach">Array.prototype.forEach</a></li>
+</ul>
+</li>
+<li><a href="#function">Function</a><ul>
+<li><a href="#自定义对象构造器">自定义对象构造器</a></li>
+<li><a href="#functionprototypeapply">Function.prototype.apply</a></li>
+<li><a href="#functionprototypebind">Function.prototype.bind</a></li>
+<li><a href="#子类构造器">子类构造器</a></li>
+<li><a href="#函数调用">函数调用</a></li>
+<li><a href="#函数参数">函数参数</a></li>
+<li><a href="#arguments">arguments</a></li>
+<li><a href="#值传递">值传递</a></li>
+<li><a href="#函数重载">函数重载</a></li>
+</ul>
+</li>
+<li><a href="#regexp">RegExp</a><ul>
+<li><a href="#regexpprototypetest">RegExp.prototype.test</a></li>
+</ul>
+</li>
+<li><a href="#date">Date</a></li>
+<li><a href="#标准内置对象-1">标准内置对象</a><ul>
+<li><a href="#math">Math</a><ul>
+<li><a href="#mathfloor">Math.floor</a></li>
+</ul>
+</li>
+<li><a href="#mathrandom">Math.random</a></li>
+<li><a href="#json">JSON</a><ul>
+<li><a href="#jsonstringify">JSON.stringify</a></li>
+<li><a href="#jsonparse">JSON.parse</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#全局对象">全局对象</a><ul>
+<li><a href="#nan">NaN</a></li>
+<li><a href="#parseint">parseInt</a></li>
+<li><a href="#eval">eval</a></li>
+<li><a href="#encodeduricomponent">encodedURIComponent</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
 ##javascript介绍
 ![Alt text](img/1432902619343.png)
  - **javascript简介**
@@ -149,7 +243,7 @@
 ####String.prototype.indexOf
 ![Alt text](img/1433038999005.png)
 ####String.prototy.replace
-![Alt text](.img/1433039161689.png)
+![Alt text](img/1433039161689.png)
 ####Sting.prototype.split
 ![Alt text](img/1433039320053.png)
 
