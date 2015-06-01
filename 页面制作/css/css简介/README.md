@@ -82,7 +82,7 @@
 
 **语法总结**
 ![Alt text](img/1433126596150.png)
-
+>参考资料：https://developer.mozilla.org/zh-CN/docs/Web/CSS/Value_definition_syntax
 
 #####@规则语法
 ![Alt text](img/1433125377404.png)
