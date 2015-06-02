@@ -49,8 +49,7 @@
  ```
  .demo a[id] {background: blue; color:yellow;font-weight:bold;}
  ```
- ![Alt text](img/
-1433146719829.png)
+ ![Alt text](img/1433146719829.png)
  >如E[attr1][attr2], 这样只要是同时具有这两属性的元素都将被选中：
 
 2. **E[attr~="value"]**：指定属性名，并且具有属性值，此属性值是一个词列表，并且以空格隔开，其中词列表中包含了一个value词，而且等号前面的“〜”不能不写；
