@@ -108,6 +108,7 @@
 .demo li {color: blue;}
 ```
 上面表示的是，选中div.demo中所有的li元素
+
 ![Alt text](img/1433175596303.png)
 
 二、子元素选择器(E>F)
@@ -116,6 +117,7 @@
 ul > li {background: green;color: yellow;}
 ```
 上在代码表示选择ul下的所有子元素li。如：
+
 ![Alt text](img/1433175656145.png)
 
 三、相邻兄弟元素选择器(E + F)
@@ -124,14 +126,17 @@ ul > li {background: green;color: yellow;}
 li + li {background: green;color: yellow; border: 1px solid #ccc;}
 ```
 上面代码表示选择li的相邻元素li，我们这里一共有十个li，那么上面的代码选择了从第2个li到 10 个li，一共九个，请看效果：
-![Alt text](img/
-1433175763917.png)
+
+![Alt text](img/1433175763917.png)
+
 因为上面的li+li其中第二li是第一li的相邻元素，第三个又是第二个相邻元素，因此第三个也被选择，依此类推，所以后面九个li都被选中了，如果我们换过一种方式来看，可能会更好的理解一点：
 ```
 .active + li {background: green;color: yellow; border: 1px solid #ccc;}
 ```
 li.active后面相邻的li元素,仅只有一个的。如图：
+
 ![Alt text](img/1433176350858.png)
+
 
 四、通用兄弟选择器（Ｅ 〜 Ｆ）
 E和F元素是属于同一父元素之内，并且F元素在Ｅ元素之后，那么E ~ F 选择器将选择中所有Ｅ元素后面的Ｆ元素。比如下面的代码：
@@ -139,6 +144,7 @@ E和F元素是属于同一父元素之内，并且F元素在Ｅ元素之后，�
 .active ~ li {background: green;color: yellow; border: 1px solid #ccc;}
 ```
 选择中了li.active 元素后面的所有兄弟元素li,如图所示：
+
 ![Alt text](img/1433176749405.png)
 
 
