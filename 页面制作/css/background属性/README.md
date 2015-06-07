@@ -51,6 +51,9 @@
 >![Alt text](img/1433331745637.png)
 
 ###background-attachment
+> - 规定背景图像是否固定或者随着页面的其余部分滚动。
+
+
 ![Alt text](img/1433331884043.png)
 >fixed的参照物是整个页面，好少用，不建议使用。
 
@@ -70,26 +73,59 @@
 ###radial-gradient
 ![Alt text](img/1433333084350.png)
 ![Alt text](img/1433333137416.png)
+
+> - circle 100px 意思是 半径为100px的圆。
+
 ![Alt text](img/1433333199339.png)
+> - 椭圆经过左上角，且椭圆的半径比例是跟长方形的宽高本来相同。
+
+
 ![Alt text](img/1433333216900.png)
+> - 或者可以设置一个椭圆，指定半径。
+
+
 ![Alt text](img/1433333239709.png)
+> - at指定了椭圆的圆心位置。
+
 ![Alt text](img/1433333273615.png)
+> - green20%指定了这个属性值的位置。
+
 ###repeat-*-gradient
 ![Alt text](img/1433333342327.png)
+> - 从距离起点40px的地方开始，又按照这样的分布距离开始重复。
+
 ![Alt text](img/1433333357571.png)
 ###background-origin
 ![Alt text](img/1433333457710.png)
+> - 背景从padding开始
+
 ![Alt text](img/1433333470559.png)
+> - 背景从border开始
+
 ![Alt text](img/1433333484790.png)
+> - 背景冲content开始
 ###background-clip
 ![Alt text](img/1433333580248.png)
+> - 背景包括border在内。
+
 ![Alt text](img/1433333590150.png)
+> - 背景包括padding在内。
+
 ![Alt text](img/1433333601203.png)
+> - 背景包括content在内。
+
 ###background-size
 ![Alt text](img/1433333692424.png)
 ![Alt text](img/1433333710863.png)
+> - 宽跟高的比例变成容器宽、高的50%。
+
 ![Alt text](img/1433333735994.png)
+> - 图片尽可能小，但最少都不可以少于容器的宽或者高。
+
 ![Alt text](img/1433333746589.png)
+> - 图片尽可能大，但最大都不可以大于容器的宽或者高。
+
+
 ###background综合写法
 ![Alt text](img/1433333871911.png)
 
