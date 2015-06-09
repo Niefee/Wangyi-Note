@@ -70,15 +70,18 @@
 
  - 类型转换
 
-** - Undefined转Boolean**
+**Undefined转Boolean**
+
 ![Alt text](img/1433818702785.png)
 >obj.c = Boolean(undefined)
 
-** - Undefined转Number**
+**Undefined转Number**
+
 ![Alt text](img/1433818825258.png)
 ![Alt text](img/1433818805815.png)
 
-** - Undefined转String**
+**Undefined转String**
+
 ![Alt text](img/1433818861270.png)
 ![Alt text](img/1433818894211.png)
 
