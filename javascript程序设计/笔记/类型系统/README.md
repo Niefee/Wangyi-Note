@@ -1,6 +1,6 @@
 **目录**：
 
->笔记持续更新，原地址 :https : //github.com/Niefee/Wangyi-Note ;
+>笔记持续更新，原地址 : https://github.com/Niefee/Wangyi-Note ;
 
 <ul>
 <li><ul>
@@ -42,18 +42,27 @@
 ####Undefined
  - 类型说明
 	 - 值：undefined
- - 出行场景
-	 - 已声明未赋值的变量
-	![Alt text](img/1433818134186.png)
+
+
+- 出现场景
+
+1、已声明未赋值的变量
+![Alt text](img/1433818134186.png)
+
 >声明一个变量a，却没有赋值， 打印出来是undefined。
 
-	 - 获取对象不存在的属性
-	![Alt text](img/1433818245109.png)
-	 - 无返回值的函数的执行结果
+
+2、获取对象不存在的属性
+![Alt text](img/1433818245109.png)
+
+3、无返回值的函数的执行结果
 ![Alt text](img/1433818315689.png)
-	 - 函数参数没有传入
+4、函数参数没有传入
 ![Alt text](img/1433818349989.png)
-	 - void（expression）
+5、void（expression）
+
+---
+
  - 类型转换
 **Boolean**
 ![Alt text](img/1433818702785.png)
