@@ -1,6 +1,6 @@
 **目录**：
 
->笔记持续更新，原地址:https://github.com/Niefee/Wangyi-Note ;
+>笔记持续更新，原地址 :https://github.com/Niefee/Wangyi-Note ;
 
 
 ![插图](img/1.png)
