@@ -69,16 +69,20 @@
 ---
 
  - 类型转换
-**Boolean**
+
+** - Undefined转Boolean**
 ![Alt text](img/1433818702785.png)
 >obj.c = Boolean(undefined)
 
-**Number**
+** - Undefined转Number**
 ![Alt text](img/1433818825258.png)
 ![Alt text](img/1433818805815.png)
-**String**
+
+** - Undefined转String**
 ![Alt text](img/1433818861270.png)
 ![Alt text](img/1433818894211.png)
+
+---
 
 ####Null
 ![Alt text](img/1433818952753.png)
@@ -91,13 +95,15 @@
 
 ####Number
 ![Alt text](img/1433819123576.png)
->NaN表示非数字值。
+>NaN表示非数字值。 NaN = 'Not a Number' 非数字值。
+>Infinity表示无穷大。
 
 ####Object
 ![Alt text](img/1433819221467.png)
 
 ###类型识别
 ![Alt text](img/1433820055635.png)
+
 ####typeof
 ![Alt text](img/1433820141773.png)
 
