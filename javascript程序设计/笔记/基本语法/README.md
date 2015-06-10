@@ -1,6 +1,6 @@
 **目录**：
 
->笔记持续更新，原地址 :https : //github.com/Niefee/Wangyi-Note ;
+>笔记持续更新，原地址: https://github.com/Niefee/Wangyi-Note ;
 
 <ul>
 <li><a href="#基本语法">基本语法</a><ul>
@@ -25,6 +25,8 @@
 ![Alt text](img/1433816032663.png)
 >arr跟Arr的涵义不一样。
 >**For**是错误，正确的是**for**。
+
+
 ##严格模式
 ![Alt text](img/1433816243116.png)
  - 区别
