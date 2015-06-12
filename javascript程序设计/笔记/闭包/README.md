@@ -9,7 +9,8 @@
 </li>
 </ul>
 #闭包
-![Alt text](./1434082304545.png)
-![Alt text](./1434082562151.png)
+![Alt text](img/1434082304545.png)
+![Alt text](img/1434082562151.png)
+
 ##闭包的应用--封装
-![Alt text](./1434082652050.png)
+![Alt text](img/1434082652050.png)
