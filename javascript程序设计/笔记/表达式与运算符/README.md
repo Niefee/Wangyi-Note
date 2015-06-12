@@ -15,18 +15,18 @@
 </li>
 </ul>
 #表达式与运算符
-![Alt text](./1434079168989.png)
+![Alt text](img/1434079168989.png)
 ##运算符
-![Alt text](./1434079256327.png)
+![Alt text](img/1434079256327.png)
 ###关系运算 ===
-![Alt text](./1434079469279.png)
+![Alt text](img/1434079469279.png)
 ###关系运算 ==
-![Alt text](./1434079592389.png)
-![Alt text](./1434079626399.png)
+![Alt text](img/1434079592389.png)
+![Alt text](img/1434079626399.png)
 ###逻辑运算符
-![Alt text](./1434079745840.png)
-![Alt text](./1434079954580.png)
-![Alt text](./1434080784091.png)
+![Alt text](img/1434079745840.png)
+![Alt text](img/1434079954580.png)
+![Alt text](img/1434080784091.png)
 ###运算符优先级
-![Alt text](./1434081005301.png)
-![Alt text](./1434081022453.png)
+![Alt text](img/1434081005301.png)
+![Alt text](img/1434081022453.png)
