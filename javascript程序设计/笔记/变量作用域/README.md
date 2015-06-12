@@ -2,6 +2,7 @@
 
 >笔记持续更新，原地址:  https://github.com/Niefee/Wangyi-Note ;
 
+
 <ul>
 <li><a href="#变量作用域">变量作用域</a><ul>
 <li><a href="#静态作用域">静态作用域</a><ul>
