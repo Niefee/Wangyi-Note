@@ -2,7 +2,7 @@
 
 >笔记持续更新，原地址 :https ://github.com/Niefee/Wangyi-Note ;
 
-
+**这个笔记比较冗杂，可以另外查看单个的分类目录笔记。**
 <ul>
 <li><a href="#javascript介绍">javascript介绍</a></li>
 <li><a href="#javascript调试">javascript调试</a><ul>
