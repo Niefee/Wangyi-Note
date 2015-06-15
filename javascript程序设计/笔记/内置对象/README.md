@@ -3,7 +3,6 @@
 >笔记持续更新，原地址:  https://github.com/Niefee/Wangyi-Note ;
 
 <ul>
-<li><ul>
 <li><a href="#内置对象">内置对象</a><ul>
 <li><a href="#简介">简介</a></li>
 <li><a href="#object">Object</a><ul>
@@ -70,8 +69,7 @@
 </ul>
 </li>
 </ul>
-</li>
-</ul>
+
 ##内置对象
 ###简介
 ![Alt text](img/1433922022267.png)
