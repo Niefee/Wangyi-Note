@@ -21,11 +21,14 @@
 ##while
  - 循环嵌套
 ![Alt text](img/1434340039938.png)
+
 ##do-while
  - 数字倒转的算法
 ![Alt text](img/1434340223276.png)
+
 ##for循环
 ![Alt text](img/1434340288493.png)
+
 >最后弹出来的是”4“，循环结束后 **i** 的值是5. 
 
 - 比较
@@ -77,6 +80,7 @@ print(u+"和"+v+"的最大公约数是"+gcd(u,v)+"<br/>")；//42和24的最大�
 ```
 ##函数变量
 ![Alt text](img/1434359232254.png)
+
 ```
 function add(a,b){
 	return a+b;
@@ -92,15 +96,18 @@ cal(add,5,6);//结果是11
 ##数组
 ![Alt text](img/1434359958988.png)
  - 创建数组
+
 ![Alt text](img/1434360081957.png)
  - 访问数组
+
 ![Alt text](img/1434360213908.png)
  - 数组长度
+
 ![Alt text](img/1434361869366.png)
 ![Alt text](img/1434362068886.png)
 >alert (color[2])的结果是undefined 。
 
- 2、
+
 ![Alt text](img/1434362230408.png)
 >alert (color[3])的结果是undefined 。
 
