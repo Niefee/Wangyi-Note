@@ -9,7 +9,7 @@
 <li><a href="#面向对象-1">面向对象</a><ul>
 <li><a href="#自定义的constructor">自定义的constructor</a></li>
 <li><a href="#this">this</a></li>
-<li><a href="#appl与ycall">apply、call</a></li>
+<li><a href="#apply与call">apply、call</a></li>
 </ul>
 </li>
 </ul>
