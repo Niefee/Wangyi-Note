@@ -51,6 +51,7 @@
 ![Alt text](img/1434506114042.png)
  - 总结
 ![Alt text](img/1434506137238.png)
+
 ####apply与call
 ![Alt text](img/1434506374488.png)
 
