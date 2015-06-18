@@ -1,6 +1,6 @@
 **目录**：
 
->笔记持续更新，原地址 :https://github.com/Niefee/Wangyi-Note ;
+>笔记持续更新，原地址: https://github.com/Niefee/Wangyi-Note ;
 
 <ul>
 <li><a href="#面向对象与事件处理">面向对象与事件处理</a><ul>
@@ -33,22 +33,39 @@
 ###创建对象
 ![Alt text](img/1434418233069.png)
 >ciclr有三个属性。
+
 ###访问对象属性
 ![Alt text](img/1434418329973.png)
 ###删除对象
 ![Alt text](img/1434418414991.png)
+>null一个对象，但是为空。因为是对象，所以 typeof null 返回 'object' 。 
+>undefined是window对象的一个属性。
+>[null与undefined对比](http://www.jb51.net/article/20396.htm )
+
 ##遍历所有 属性
  - for( var x in o )
 ```
-var o=new.Object
-o.name="John Mike";
-o.age=30;
-o.salary=300;
-for(var x in o){
-alert (x+"="+o[x]);
+	var o=new.Object
+	o.name="John Mike";
+	o.age=30;
+	o.salary=300;
+	
+	第一种情况：
+	for（var x in o){
+	alert(x)
 }
+//结果是：name/age/salary
+x去获取o的每一个属性的名字。
+	
+	第二种情况：
+	for(var x in o){
+	alert (x+"="+o[x]);
+}
+//结果是：name=John Mike/age=30/salary=300；
+对象可以想数组那样访问对象属性的值。
 ```
->结果是：name=John Mike/age=30/salary=300；
+
+>
 
 ##构造方法
 ![Alt text](img/1434419045647.png)
