@@ -41,14 +41,23 @@
 >函数内可以使用this创建属性。
 
  - 创建构造器
+
 ![Alt text](img/1434505144669.png)
 
 ####this
 ![Alt text](img/1434505447032.png)
+>外层没有包装就是指向全局对象（window）。
+
 ![Alt text](img/1434505605176.png)
+>构造器里面的this就是即将创造出来的对象。
+
 ![Alt text](img/1434505825985.png)
 ![Alt text](img/1434505936814.png)
+>new function()里面的this都是指代全局对象（window）。
+
 ![Alt text](img/1434506114042.png)
+>this等于调用上下文中的this。
+
  - 总结
 ![Alt text](img/1434506137238.png)
 

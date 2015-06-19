@@ -81,7 +81,7 @@
 ![Alt text](img/1433224268660.png)
 ####text-decoration
 ![Alt text](img/1433224384974.png)
-####text-text-overflow
+####text-overflow
 ![Alt text](img/1433225866318.png)
 ####cursor
 ![Alt text](img/1433226023190.png)
