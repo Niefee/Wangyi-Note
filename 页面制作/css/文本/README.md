@@ -27,7 +27,7 @@
 <li><a href="#word-break">word-break</a></li>
 <li><a href="#text-shadow">text-shadow</a></li>
 <li><a href="#text-decoration">text-decoration</a></li>
-<li><a href="#text-text-overflow">text-text-overflow</a></li>
+<li><a href="#text-overflow">text-overflow</a></li>
 <li><a href="#cursor">cursor</a></li>
 <li><a href="#inherit继承">inherit(继承)</a></li>
 </ul>
