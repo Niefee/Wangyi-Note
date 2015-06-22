@@ -87,6 +87,11 @@
 
 ####Object.prototype.toString
 ![Alt text](img/1433922686031.png)
+**toString()**函数用于将当前对象以字符串的形式返回。
+
+该方法属于Object对象，由于所有的对象都"继承"了Object的对象实例，因此几乎所有的实例对象都可以使用该方法。
+
+>参考：http://www.cnblogs.com/muguaworld/archive/2008/07/18/1246338.html 。
 
 ####Object.prototype.hasOwnProperty
 ![Alt text](img/1433922806161.png)
