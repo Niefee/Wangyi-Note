@@ -6,12 +6,13 @@
 <li><a href="#节点操作">节点操作</a><ul>
 <li><a href="#获取节点">获取节点</a><ul>
 <li><a href="#getelementbyid">getElementById</a></li>
-<li><a href="#gerelementbytabname">gerElementByTabName</a></li>
-<li><a href="#getelementbyclassname">getElementByClassName</a></li>
+<li><a href="#gerelementsbytabname">gerElementsByTabName</a></li>
+<li><a href="#getelementsbyclassname">getElementsByClassName</a></li>
 <li><a href="#queryselector-all">querySelector /All</a></li>
 </ul>
 </li>
-<li><a href="#创建节点">创建节点</a><ul>
+<li><a href="#创建节点">创建节点</a>
+<ul>
 <li><a href="#createelement">createElement</a></li>
 </ul>
 </li>
@@ -28,6 +29,12 @@
 <li><a href="#innerhtml">innerHTML</a></li>
 </ul>
 </li>
+<li><a href="#补充">补充</a>
+<ul>
+<li><a href="#作为节点数的文档">作为节点数的文档</a></li>
+<li><a href="#作为元素树的文档">作为元素树的文档</a></li>
+</ul>
+</li>
 </ul>
 #节点操作
 ##获取节点
@@ -38,7 +45,7 @@
 ###getElementById
 ![Alt text](img/1435027303455.png)
 
-###gerElementByTabName
+###gerElementsByTabName
 ![Alt text](img/1435027486802.png)
 **可通过下标获取指定元素**
 ![Alt text](img/1435027582838.png)
@@ -47,7 +54,7 @@
 ![Alt text](img/1435027848883.png)
 >集合是活的。
 
-###getElementByClassName
+###getElementsByClassName
 ![Alt text](img/1435028075359.png)
 
 **就版本兼容方案**
@@ -56,6 +63,8 @@
 ###querySelector /All
 ![Alt text](img/1435028553369.png)
 >静态的选择器。
+
+>**querySelectorAll与querySelector的区别是querySelectorAll找出所有匹配的节点并返回数组，querySelector找到一个后就返回节点对象。**
 
  - 小结
 ![Alt text](img/1435028739376.png)
@@ -93,6 +102,25 @@
  ![Alt text](img/1435031277311.png)
 
 >建议只用于新节点。
+
+##补充
+###作为节点数的文档
+ 1、**parentNode**    获取该节点的父节点    
+ 2、**childNodes**    获取该节点的子节点数组
+ 3、**firstChild **   获取该节点的第一个子节点
+ 4、**lastChild**    获取该节点的最后一个子节点
+ 5、**nextSibling    **获取该节点的下一个兄弟元素
+ 6、**previoursSibling**    获取该节点的上一个兄弟元素
+ 7、**nodeType**    节点的类型，9代表Document节点，1代表Element节点，3代表Text节点，8代表Comment节点，11代表DocumentFragment节点
+ 8、**nodeVlue**    Text节点或Comment节点的文本内容
+ 9、**nodeName   ** 元素的标签名(如P,SPAN,#text(文本节点),DIV)，以大写形式表示
+
+###作为元素树的文档
+1、**firstElementChild **       第一个子元素节点
+2、**lastElementChild **       最后一个子元素节点
+3、**nextElementSibling  **      下一个兄弟元素节点
+4、**previousElementSibling  **  前一个兄弟元素节点
+5、**childElementCount  **      子元素节点个数量
 
 
 
