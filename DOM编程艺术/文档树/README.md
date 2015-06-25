@@ -35,7 +35,16 @@
 
 ##节点类型
 ![Alt text](img/1435025519754.png)
+>几个主要节点类型：
+    **ELEMENT_NODE**= 1：元素节点   
+     **TEXT_NODE   **= 3：文本节点
+     **DOCUMENT_NODE **= 9：文档节点
 
 ##元素遍历
 ![Alt text](img/1435025662827.png)
+
+ > firstElementChild 第一个节点
+ >   lastElementChild 最后一个节点
+ >     nextElementtSibling 下一同级节点
+ >     previousElementSibling 上一同级节点
 
