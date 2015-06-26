@@ -2,7 +2,7 @@
 
 >笔记持续更新，原地址 : https://github.com/Niefee/Wangyi-Note ;
 
-ul>
+<ul>
 <li><a href="#dom事件">DOM事件</a><ul>
 <li><a href="#事件流">事件流</a><ul>
 <li><a href="#什么是dom时间">什么是DOM时间</a></li>
