@@ -63,3 +63,5 @@
 
 ##总结
 ![Alt text](img/1435723425184.png)
+
+>Grid自适应布局参考：http://www.w3cplus.com/css3/create-an-adaptive-layout-with-css-grid.html 。
