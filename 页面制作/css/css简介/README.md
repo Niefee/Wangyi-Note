@@ -1,6 +1,6 @@
 **目录**：
 
->笔记持续更新，原地址:https://github.com/Niefee/Wangyi-Note ;
+>笔记持续更新，原地址: https://github.com/Niefee/Wangyi-Note ;
 
 
 <ul>
@@ -28,6 +28,7 @@
 ####历史
  - 1996 ------css1
  - 1998 ------css2
+
  - 2001 ------css3着手准备
  - 2007 ------css2.1
 
@@ -103,4 +104,26 @@
 ![Alt text](img/1433125377404.png)
 ![Alt text](img/1433125462617.png)
 
+>@font-face补充：
 
+    @font-face {
+      font-family: <YourWebFontName>;
+      src: <source> [<format>][,<source> [<format>]]*;
+      [font-weight: <weight>];
+      [font-style: <style>];
+    }
+
+>取值说明
+
+>1、YourWebFontName:此值指的就是你自定义的字体名称，最好是使用你下载的默认字体，他将被引用到你的Web元素中的font-family。如“font-family:"YourWebFontName";”
+
+>2、source:此值指的是你自定义的字体的存放路径，可以是相对路径也可以是绝路径；
+
+>3、format：此值指的是你自定义的字体的格式，主要用来帮助浏览器识别，其值主要有以下几种类型：truetype,opentype,truetype-aat,embedded-opentype,avg等；
+
+>4、weight和style:这两个值大家一定很熟悉，weight定义字体是否为粗体，style主要定义字体样式，如斜体。 
+
+---
+
+>**!important**是CSS1就定义的语法，作用是提高指定样式规则的应用优先权。语法格式{ cssRule !important }，即写在定义的最后面，例如：box{color:red !important;}。
+在CSS中，通过对某一样式声明! important ，可以更改默认的CSS样式优先级规则，使该条样式属性声明具有最高优先级，也就是相当于写在最下面。
