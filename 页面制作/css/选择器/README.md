@@ -1,6 +1,6 @@
-**目录**：
+******目录**：
 
->笔记持续更新，原地址:https://github.com/Niefee/Wangyi-Note ;
+>笔记持续更新，原地址: https://github.com/Niefee/Wangyi-Note ;
 
 
 <ul>
@@ -12,7 +12,7 @@
 <li><a href="#id选择器">id选择器</a></li>
 <li><a href="#通配符选择器">通配符选择器</a></li>
 <li><a href="#属性选择器">属性选择器</a></li>
-<li><a href="#伪类-选择器">伪类 选择器</a></li>
+<li><a href="#伪类选择器">伪类 选择器</a></li>
 <li><a href="#伪元素选择器">伪元素选择器</a></li>
 <li><a href="#组合选择器">组合选择器</a></li>
 </ul>
@@ -96,7 +96,7 @@
 ![Alt text](img/1433148117798.png)
 
 
-###伪类 选择器
+###伪类选择器
 ![Alt text](img/1433148927363.png)
 ![Alt text](img/1433148985816.png)
 >具体语法请参考：http://www.w3cplus.com/css3/pseudo-class-selector
@@ -144,7 +144,7 @@ li.active后面相邻的li元素,仅只有一个的。如图：
 
 
 四、通用兄弟选择器（Ｅ 〜 Ｆ）
-E和F元素是属于同一父元素之内，并且F元素在Ｅ元素之后，那么E ~ F 选择器将选择中所有Ｅ元素后面的Ｆ元素。比如下面的代码：
+E和F元素是属于**同一父元素**之内，并且F元素在Ｅ元素之后，那么E ~ F 选择器将选择中**所有**Ｅ元素后面的Ｆ元素。比如下面的代码：
 ```
 .active ~ li {background: green;color: yellow; border: 1px solid #ccc;}
 ```
@@ -152,6 +152,7 @@ E和F元素是属于同一父元素之内，并且F元素在Ｅ元素之后，�
 
 ![Alt text](img/1433176749405.png)
 
+>通用兄弟选择器和相邻兄弟选择器极其相似，只不过，相邻兄弟选择器仅选择是元素的仅与其相邻的后面元素（选中的**仅一个**元素）；而通用兄弟元素选择器，选中的是元素相邻的后面兄弟元素（可以使**多个**元素）。
 
 >请参考：http://www.w3cplus.com/css3/basic-selectors
 

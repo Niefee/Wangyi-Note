@@ -69,14 +69,36 @@
 ![Alt text](img/1433221820043.png)
 ####white-space
 ![Alt text](img/1433222333576.png)
+>Collapse表示换行跟空格都会被合并成一个空格。
+>Wrap表示换行。No wrap表示不 换行。
+>preserve表示保留。
+
+| 值                       |  	描述  |
+|:--------------------| :  ------: |  
+| normal |	默认。空白会被浏览器忽略。|
+|pre	 | 空白会被浏览器保留。其行为方式类似 HTML 中的 < pre> 标签。|
+| nowrap |	文本不会换行，文本会在在同一行上继续，直到遇到 < br> 标签为止。 |
+|pre-wrap|	保留空白符序列，但是正常地进行换行。 |
+|pre-line |	合并空白符序列，但是保留换行符。 |
+|inherit |	规定应该从父元素继承 white-space 属性的值。 |
+
+
+
 ![Alt text](img/1433222616064.png)
 ![Alt text](img/1433222678772.png)
 
 ####word-wrap
 ![Alt text](img/1433222720864.png)
+>normal表示不换行，可能溢出。
+>break-word可以换行，但在长单词或 URL 地址内部进行换行。
 
 ####word-break
 ![Alt text](img/1433222895917.png)
+>normal表示按照浏览器规则换行；
+>break-all表示在单词内换行，即到边缘就换行。
+>keep-all在空格或者连字符（“-”）才换行。
+
+
 ####text-shadow
 ![Alt text](img/1433224268660.png)
 ####text-decoration
