@@ -1,6 +1,6 @@
 **目录**:
 
->笔记持续更新，原地址:https ://github.com/Niefee/Wangyi-Note ;
+>笔记持续更新，原地址: https://github.com/Niefee/Wangyi-Note ;
 
 
 <ul>
@@ -96,6 +96,7 @@
 
 ![Alt text](img/1433333357571.png)
 ###background-origin
+这个属性用来确定背景的起点。
 ![Alt text](img/1433333457710.png)
 > - 背景从padding开始
 
