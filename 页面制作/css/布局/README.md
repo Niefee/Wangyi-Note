@@ -55,6 +55,7 @@
 </li>
 </ul>
 ##布局
+元素以正确的大小摆放在正确的位置上。
 ###display
 ![Alt text](img/1433388517534.png)
 ####block
@@ -168,8 +169,14 @@
 ###flex
 > **适用于父类容器元素上**
 
+
+
 ![Alt text](img/1433408816198.png)
 ![Alt text](img/1433408839960.png)
+
+>只作用域直接子元素。
+
+
 ####flex item
 ![Alt text](img/1433408916327.png)
 ####flex-direction

@@ -70,19 +70,48 @@
 ####white-space
 ![Alt text](img/1433222333576.png)
 >Collapse表示换行跟空格都会被合并成一个空格。
->Wrap表示换行。No wrap表示不 换行。
+
+>Wrap表示换行。
+
+>No wrap表示不 换行。
+
 >preserve表示保留。
 
-| 值                       |  	描述  |
-|:--------------------| :  ------: |  
-| normal |	默认。空白会被浏览器忽略。|
-|pre	 | 空白会被浏览器保留。其行为方式类似 HTML 中的 < pre> 标签。|
-| nowrap |	文本不会换行，文本会在在同一行上继续，直到遇到 < br> 标签为止。 |
-|pre-wrap|	保留空白符序列，但是正常地进行换行。 |
-|pre-line |	合并空白符序列，但是保留换行符。 |
-|inherit |	规定应该从父元素继承 white-space 属性的值。 |
 
-
+<table>
+<thead>
+<tr>
+<th align="left">值</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">normal</td>
+<td>默认。空白会被浏览器忽略。</td>
+</tr>
+<tr>
+<td align="left">pre</td>
+<td>空白会被浏览器保留。其行为方式类似 HTML 中的 &lt; pre&gt; 标签。</td>
+</tr>
+<tr>
+<td align="left">nowrap</td>
+<td>文本不会换行，文本会在在同一行上继续，直到遇到 &lt; br&gt; 标签为止。</td>
+</tr>
+<tr>
+<td align="left">pre-wrap</td>
+<td>保留空白符序列，但是正常地进行换行。</td>
+</tr>
+<tr>
+<td align="left">pre-line</td>
+<td>合并空白符序列，但是保留换行符。</td>
+</tr>
+<tr>
+<td align="left">inherit</td>
+<td>规定应该从父元素继承 white-space 属性的值。</td>
+</tr>
+</tbody>
+</table>
 
 ![Alt text](img/1433222616064.png)
 ![Alt text](img/1433222678772.png)
