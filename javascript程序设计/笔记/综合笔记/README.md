@@ -1,6 +1,6 @@
 **目录**：
 
->笔记持续更新，原地址 :https ://github.com/Niefee/Wangyi-Note ;
+>笔记持续更新，原地址: https://github.com/Niefee/Wangyi-Note ;
 
 **这个笔记比较冗杂，可以另外查看单个的分类目录笔记。**
 <ul>
@@ -122,7 +122,7 @@
  - 第三个：进入函数执行
  - 第四个：跳出函数执行
 
- ###观察窗口
+###观察窗口
 ![Alt text](img/1432912421803.png)
 
 ##javascript词法
