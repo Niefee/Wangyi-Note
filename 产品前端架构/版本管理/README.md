@@ -49,6 +49,8 @@
 </li>
 </ul>
 #版本管理
+>网上一个比较简单易懂的课程： http://www.imooc.com/learn/390 。
+
 ##简介
 ![Alt text](img/1435806239814.png)
 
