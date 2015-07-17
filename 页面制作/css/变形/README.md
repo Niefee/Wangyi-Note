@@ -1,6 +1,6 @@
 **目录**：
 
->笔记持续更新，原地址:https://github.com/Niefee/Wangyi-Note ;
+>笔记持续更新，原地址: https://github.com/Niefee/Wangyi-Note ;
 
 
 <ul>
@@ -30,20 +30,24 @@
 ###transform
 ![Alt text](img/1433469271740.png)
 ####rotate
+**旋转**
  rotate(< angle>)
  ![Alt text](img/1433469356005.png)
  
 ###translate
+**移动**
 ![Alt text](img/1433469671171.png)
 ![Alt text](img/1433469806776.png)
 >百分百的取值基础是容器的宽或高。
 
 
 ###scale
+**缩放**
 ![Alt text](img/1433470006272.png)
 ![Alt text](img/1433470171159.png)
 
 ###skew
+**倾斜**
 ![Alt text](img/1433470431656.png)
 
 ###transform:< transform-function >+
@@ -54,14 +58,21 @@
 ![Alt text](img/1433470828578.png)
 
 ###transform-origin
+**变换原点**
 ![Alt text](img/1433471134163.png)
 ![Alt text](img/1433471319056.png)
 
 ###perspective
+**透视**
 ![Alt text](img/1433472259577.png)
->length的取值意思是人眼到物体的距离
+>length的取值意思是人眼到物体的距离,
+>当为元素定义 perspective 属性时，其子元素会获得透视效果，而不是元素本身。
+>参考资料：
+>1、 http://www.zhangxinxu.com/wordpress/2012/09/css3-3d-transform-perspective-animate-transition/ 。
+>2、http://www.w3cplus.com/css3/transform-basic-property.html
 
 ####perspective-origin
+**透视原点**
 ![Alt text](img/1433472580208.png)
 
 ###translate3d()
