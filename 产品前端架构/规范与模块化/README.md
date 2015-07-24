@@ -1,31 +1,52 @@
-[toc]
+**目录**：
+
+>笔记持续更新，原地址: https://github.com/Niefee/Wangyi-Note ;
+
+<ul>
+<li><a href="#规范与模块化">规范与模块化</a><ul>
+<li><a href="#规范">规范</a><ul>
+<li><a href="#文件规范">文件规范</a></li>
+<li><a href="#注释规范">注释规范</a></li>
+<li><a href="#命名规范">命名规范</a></li>
+<li><a href="#书写规范">书写规范</a></li>
+<li><a href="#其他规范">其他规范</a></li>
+<li><a href="#总结">总结</a></li>
+</ul>
+</li>
+<li><a href="#模块化">模块化</a><ul>
+<li><a href="#做法">做法</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
 #规范与模块化
 ##规范
-![Alt text](./1437304473785.png)
+![Alt text](img/1437304473785.png)
 ###文件规范
-![Alt text](./1437305731621.png)
-![Alt text](./1437304558740.png)
-![Alt text](./1437304617555.png)
-![Alt text](./1437304653348.png)
+![Alt text](img/1437305731621.png)
+![Alt text](img/1437304558740.png)
+![Alt text](img/1437304617555.png)
+![Alt text](img/1437304653348.png)
 ###注释规范
-![Alt text](./1437304666696.png)
-![Alt text](./1437304769637.png)
+![Alt text](img/1437304666696.png)
+![Alt text](img/1437304769637.png)
 ###命名规范
-![Alt text](./1437304784910.png)
-![Alt text](./1437304910264.png)
-![Alt text](./1437304993341.png)
-![Alt text](./1437305047303.png)
+![Alt text](img/1437304784910.png)
+![Alt text](img/1437304910264.png)
+![Alt text](img/1437304993341.png)
+![Alt text](img/1437305047303.png)
 ###书写规范
-![Alt text](./1437305074459.png)
-![Alt text](./1437305113658.png)
-![Alt text](./1437305196506.png)
-![Alt text](./1437305278294.png)
-![Alt text](./1437305380589.png)
-![Alt text](./1437305447260.png)
+![Alt text](img/1437305074459.png)
+![Alt text](img/1437305113658.png)
+![Alt text](img/1437305196506.png)
+![Alt text](img/1437305278294.png)
+![Alt text](img/1437305380589.png)
+![Alt text](img/1437305447260.png)
 ###其他规范
-![Alt text](./1437305468651.png)
-![Alt text](./1437305634937.png)
-![Alt text](./1437305709223.png)
+![Alt text](img/1437305468651.png)
+![Alt text](img/1437305634937.png)
+![Alt text](img/1437305709223.png)
 
 ###总结
 一、文件规范
@@ -285,11 +306,11 @@ font-size必须以px或pt为单位，推荐用px（注：pt为打印版字体大
 背景图片请尽可能使用sprite技术, 减小http请求, 考虑到多人协作开发, sprite按照模块、业务、页面来划分均可。
 
 ##模块化
-![Alt text](./1437306020324.png)
+![Alt text](img/1437306020324.png)
 ###做法
-![Alt text](./1437306135533.png)
-![Alt text](./1437306257929.png)
-![Alt text](./1437306393105.png)
+![Alt text](img/1437306135533.png)
+![Alt text](img/1437306257929.png)
+![Alt text](img/1437306393105.png)
 
 >参考：http://nec.netease.com/ 。
 >http://codeguide.bootcss.com/
