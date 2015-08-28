@@ -26,18 +26,24 @@
 </ul>
 #BOM
 ![Alt text](img/1435542919351.png)
+
 ##结构图
 ![Alt text](img/1435543799168.png)
+
 ##属性
 ![Alt text](img/1435543814847.png)
+
 ###navigator
 ![Alt text](img/1435543851722.png)
+
 ####navigator.userAgent
 ![Alt text](img/1435543919347.png)
+
 ###location
 ![Alt text](img/1435544016626.png)
 ![Alt text](img/1435544034983.png)
 ![Alt text](img/1435544078089.png)
+
 ###history
 ![Alt text](img/1435544274596.png)
 常用方法：
