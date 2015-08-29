@@ -4,7 +4,7 @@
 
 <ul>
     <li><a href="#响应式">响应式</a></li>
-    <ul><li><a href="媒体查询">媒体查询</a></li
+    <ul><li><a href="#媒体查询">媒体查询</a></li
     ></ul>
     
 </ul>
