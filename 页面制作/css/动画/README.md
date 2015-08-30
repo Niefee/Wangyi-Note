@@ -91,6 +91,7 @@
 
 >normal是默认方向播放，reverse是反向播放。
 >alternate是往返播放，alternate是反向往返播放。
+
 ![Alt text](img/1433492072794.png)
 ![Alt text](img/1433492135934.png)
 
