@@ -39,32 +39,38 @@
 
 ###transition-duration
 **变换延续时间**
+
 ![Alt text](img/1433488875042.png)
 ![Alt text](img/1433488914308.png)
 
 ###transition-timing-function
 **变换的速率变化 **
+
 ![Alt text](img/1433489218200.png)
 ![Alt text](img/1433489302031.png)
 
 ###transition-delay
 **变换延迟时间**
+
 ![Alt text](img/1433489686509.png)
 ![Alt text](img/1433489718320.png)
 
 ###transition简写
 >transition: <property> <duration> <animation type> <delay>
+
 ![Alt text](img/1433489831142.png)
 
 ##animation
 
 ###animation-name
 **动画名称**
+
 ![Alt text](img/1433490396387.png)
 ![Alt text](img/1433490521532.png)
 
 ###animation-duration
 **元素动画的持续时间**
+
 ![Alt text](img/1433490565885.png)
 ![Alt text](img/1433490608241.png)
 
@@ -76,28 +82,34 @@
 
 ###animation-iteration-count
 **动画播放的循环次数**
+
 ![Alt text](img/1433491892925.png)
 ![Alt text](img/1433491934137.png)
 
 ###animation-direction
 **元素动画的播放方向**
+
 >normal是默认方向播放，reverse是反向播放。
 >alternate是往返播放，alternate是反向往返播放。
 ![Alt text](img/1433492072794.png)
 ![Alt text](img/1433492135934.png)
 
 ###animation-play-state
+
 **元素动画的播放 状态**
+
 ![Alt text](img/1433492162144.png)
 ![Alt text](img/1433492234883.png)
 
 ###animation-delay
 **动画播放延迟时间**
+
 ![Alt text](img/1433492283341.png)
 ![Alt text](img/1433492296947.png)
 
 ###animation-fill-mode
 **元素动画播放前后的界面显示**
+
 ![Alt text](img/1433492393840.png)
 ![Alt text](img/1433492470611.png)
 >**none **  不改变默认行为。
