@@ -24,6 +24,8 @@
  
 ![Alt text](img/1435566879211.png)
 
+>Expires表示时间戳，Max-Age是表示以毫秒为单位的时间长度。
+
  - 作用域
 ![Alt text](img/1435566927701.png)
 
