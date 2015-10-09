@@ -23,14 +23,17 @@
  - 属性
  
 ![Alt text](img/1435566879211.png)
+>Expires表示时间戳，Max-Age表示以毫秒计算的有效时间。
 
 >Expires表示时间戳，Max-Age是表示以毫秒为单位的时间长度。
 
  - 作用域
 ![Alt text](img/1435566927701.png)
+>**domain:news.163.com**的意思是，当访问**news.163.com**这个域名的时候会带上这个cookie信息。
 
  - 作用路径
 ![Alt text](img/1435566984167.png)
+>**path:/**表示作用在这个域名下的所有目录，**path：a**表示作用在这个域名下的 **a** 目录；
 
  - 读取
 
