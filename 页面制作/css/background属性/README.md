@@ -38,6 +38,32 @@
 ![Alt text](img/1433331376205.png)
 >background-color在最后面。
 
+**添加**
+
+对于一些小图片背景或者icon，可以利用base64引入，减少服务器请求。
+
+```css
+background-image:url(data:image/png;base64,
+iVBORw0KGgo.............)
+```
+
+在上面的Data URI中，data表示取得数据的协定名称，image/png 是数据类型名称，base64 是数据的编码方法，逗号后面就是这个image/png文件base64编码后的数据。
+
+ - data:,文本数据
+ - data:text/plain,文本数据
+ - data:text/html,HTML代码
+ - data:text/html;base64,base64编码的HTML代码
+ - data:text/css,CSS代码
+ - data:text/css;base64,base64编码的CSS代码
+ - data:text/javascript,Javascript代码
+ - data:text/javascript;base64,base64编码的Javascript代码
+ - data:image/gif;base64,base64编码的gif图片数据
+ - data:image/png;base64,base64编码的png图片数据
+ - data:image/jpeg;base64,base64编码的jpeg图片数据
+ - data:image/x-icon;base64,base64编码的icon图片数据
+
+
+
 ###background-repeat
 ![Alt text](img/1433331478061.png)
 
