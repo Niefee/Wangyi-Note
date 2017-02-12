@@ -53,8 +53,46 @@
 
 #####with
 ![Alt text](img/1434078642420.png)
+
+这里的讲解出错，看一下代码
+```js
+var foo='abc';
+with({
+    foo:'bar'
+}){
+    function f(){
+        console.log(foo);
+    };
+    (function(){
+        console.log(foo);
+    })();
+    f();
+}
+//bar
+//bar
+```
+两次输出的都是`bar`。
+
 #####词法环境-try-catch
 ![Alt text](img/1434078730197.png)
 
+讲解出错，两次打印的结果都是catch接受的报错信息`error`。
+
+```js
+try {
+    var e=10;
+    throw new Error();
+} catch (e){
+    function f(){
+        console.log('1.>>>>>',e);
+    }
+    (function(){
+        console.log('2,>>>>>',e);
+    })();
+    f();
+}
+//2,>>>>> Error
+// 1.>>>>> Error
+```
 #####javascript作用域-带名称的函数表达式
 ![Alt text](img/1434078828852.png)
